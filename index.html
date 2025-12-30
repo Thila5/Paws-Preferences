@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paws & Preferences 🐾</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="app">
+    <h1 class="title">Paws & Preferences 🐾</h1>
+    <p class="subtitle">Swipe to find your favourite kitty</p>
+
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+
+    <div class="card-container">
+      <div id="like" class="overlay like">❤️</div>
+      <div id="dislike" class="overlay dislike">❌</div>
+
+      <div id="loader" class="spinner"></div>
+      <img id="cat-img" draggable="false" />
+    </div>
+
+    <p class="hint">👉 Swipe right to like · 👈 Swipe left to skip</p>
+
+    <div class="buttons">
+      <button id="dislikeBtn">👎</button>
+      <button id="likeBtn">👍</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
