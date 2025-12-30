@@ -232,3 +232,18 @@ button:hover {
     transform: translateY(0);
   }
 }
+
+/* Mobile Scroll Fix */
+.scrollable {
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 100px; /* space for sticky button */
+}
+
+/* Sticky Restart Button */
+.restart-btn {
+  position: sticky;
+  bottom: 20px;
+  display: block;
+  margin: 0 auto;
+}

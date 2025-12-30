@@ -136,7 +136,7 @@ document.getElementById("dislikeBtn").onclick = () => {
 /* ------------------ SUMMARY ------------------ */
 function showSummary() {
   document.getElementById("app").innerHTML = `
-    <div class="summary">
+   <div class="summary scrollable">
       <h2>You liked ${likedCats.length} cats 🐱</h2>
       <p class="summary-sub">Here are your favourites</p>
 
